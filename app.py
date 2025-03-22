@@ -6,7 +6,7 @@ from datas import app_dir, data  # data is here
 import seaborn as sns
 from shiny import App, Inputs, Outputs, Session, render, ui, reactive
 import os
-#shiny run --reload --port=1145 --launch-browser ./test.py
+#shiny run --reload --port=1145 --launch-browser ./app.py
 '''
 Portfolio optimization essentially belongs to the category of quantitative finance, which is an interdisciplinary field. It mainly relies on methods in econometrics and statistics, such as using historical data to estimate the returns and covariance of assets, and constructing mean-variance models to find the optimal combination. At the same time, machine learning methods have also been widely used in portfolio management in recent years, including return prediction, risk management, feature extraction, and dynamic strategy adjustment. Therefore, portfolio optimization is indeed closely related to econometrics, statistics, and machine learning.
 '''
