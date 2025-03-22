@@ -4,6 +4,8 @@
 
 This project is designed to visualize the Mean-variance portfolio optimization and compare performances of different strategies. The data are stock prices of 5 real Chinese listed companies, I downloaded from Wind Database, period is from 2019 to 2023. Inside the Mean-variance strategy, I simulated 1000 possible random portfolios to draw scatters, then the efficient frontier and the Global Minimum Variance, the Maximum Sharpe Ratio (the Optimal portfolio). In the app, you will see the correlation matrix, interactive slidebars which allow different returns and volatilities, tables and diagrams of Returns and Volatilities of different portfolio strategies. After applying strategies, you can download the Excel file to check the weight distribution of the portfolios you chose.
 
+In the app.py, you can run it to visualize. You should first put all file in your root folder, then use -cmd or terminal and enter the same root address, then use this code "shiny run --reload --port=1145 --launch-browser ./app.py"
+
 ## Main Results
 <img width="1057" alt="截屏2025-03-22 22 14 23" src="https://github.com/user-attachments/assets/1d9b11c6-f6da-479f-b430-99d4d7fbb4bd" />
 <img width="1188" alt="截屏2025-03-22 22 14 41" src="https://github.com/user-attachments/assets/6471b604-e403-4b38-9233-3e49bfc5722a" />
